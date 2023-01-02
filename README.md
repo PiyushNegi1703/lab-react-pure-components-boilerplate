@@ -1,69 +1,70 @@
-![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
+# Getting Started with Create React App
 
-### Learning Goals:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This lab aims to target the concept of `Pure Components`.
+## Available Scripts
 
-### Introduction:
+In the project directory, you can run:
 
-The task is simple, you have to create a counter functionality using `class component`.
-The only condition is that -> you can only increament the counter -> if the value of `toggle` is true, where
-`toggle` is a boolean type variable - which changes it's value between true/false, everytime you click on the `Set toggle` button.
-Initially the value of `toggle` should be false; and you can set the value of `toggle` to be true by clicking on a button called `Set toggle`. Once the value of `toggle` is true, you can increament the counter by one -> by clicking on the `increament` button, as shown below.
+### `npm start`
 
-Your task is to implement, the above problem statement using class component which extends - 
-1. Component
-2. PureComponent
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/pure-component-react.gif)
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### Steps to follow:
+### `npm run build`
 
-1. create a new react app.
-2. inside `src` folder, create a new folder `components`.
-3. inside `components` folder, create two components -
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-     1. `SimpleCounterComponent.js`
-     2. `PureCounterComponent.js`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-4. inside `SimpleCounterComponent.js`, you create a counter functionality as described above using `class component`. In this component, the class should extend `Component`.
-5. inside `PureCounterComponent.js` you create a counter functionality as described above using `class component`. But in this case, extend the class with `Pure Component`.
-6. Render both the components inside `App.js`.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### Question:
+### `npm run eject`
 
-As mentioned before, this lab is all about targeting the idea of `Pure Components`, so after completeing the above task answer the question given below-> 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. Inside `SimpleCounterComponent.js` -> after you render and before you return the jsx --> print out the following --> console.log(`This is Simple Component`) ie:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-   ```js
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-   class SimpleCounterComponent extends Component {
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-    <!-- your logic for the above problem -->
+## Learn More
 
-    render(){
-      console.log("This is Simple Component")
-      return(
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-        <!-- your jsx for the above problem -->
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-      )
-    }
-   }
+### Code Splitting
 
-   ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-2. Similarly, console.log(`This is Pure Component`), inside `PureCounterComponent.js` file.
+### Analyzing the Bundle Size
 
-You will see your console, in the similar manner as shown below:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/pure-component-react-console.gif)
+### Making a Progressive Web App
 
-**Question:** Which out of the two components (which are performing the same functionality) is performing better and how?
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-You can write your answer by creating a new markdown file, named as -> `Answer.md`, inside the `src` folder.
+### Advanced Configuration
 
-Happy Coding ❤️!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
